@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'Fregat_regular';
+    src: url(../fonts/Fregat_regular.otf);
+}
+
+@font-face {
+    font-family: 'Fregat_italic';
+    src: url(../fonts/Fregat_italic.otf);
+}
+
+@font-face {
+    font-family: 'Fregat_bold_italic';
+    src: url(../fonts/Fregat_bold_italic.otf);
+}
+
+@font-face {
+    font-family: 'Fregat_bold';
+    src: url(../fonts/Fregat_bold.otf);
+}
+
+body {
+    font-family: 'Fregat_regular';
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+.header {
+    height: 80px;
+}
+
+.header .h1 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.nav-link {
+    max-height: 80px;
+}
+
+.navbar-nav {
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 39px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+/* First */
+
+.first {
+    background-image: url(../img/1st-background.jpg);
+    background-size: cover;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.cardBody {
+    margin: 40px 0 60px 40px;
+}
+
+#learnMore {
+    border: 1px solid #0FA74B;
+    color: #0FA74B;
+}
+
+.first p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 90px 0;
+}
+
+.first h3 {
+    color: #0FA74B;
+}
+
+
+/* Second */
+
+.second {
+    background-color: #0FA74B;
+    color: white;
+}
+
+.second .forWho {
+    padding-top: 7rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.second .list-group-item {
+    border: none;
+    padding: 0.1rem 1.25rem;
+    background-color: #0FA74B;
+}
+
+.second ul {
+    padding: 2rem 0;
+}
+
+
+/* Third */
+
+.third .header {
+    margin-top: 90px;
+    font-size: 36px;
+    color: #0FA74B;
+}
+
+.third .about {
+    margin: 0 90px 50px 90px;
+}
+
+.third .list {
+    width: 88%;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.third .list .col-md-6 {
+    font-size: 13px;
+}
+
+.third .list p {
+    font-size: 11px;
+    margin: 20px 70px;
+    color: #A5A29C;
+}
+
+
+/* Four */
+
+.slide {
+    width: 88%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    max-width: 70%;
+}
+
+.arrow.left {
+    left: -80%;
+}
+
+.arrow.right {
+    right: -80%;
+}
+
+
+/* CallAdress */
+
+.callAdress {
+    background-color: #C4FFC9;
+    padding-top: 40px;
+}
+
+.callAdress .header {
+    font-size: 20px;
+    color: grey;
+}
+
+.callAdress .greyText {
+    font-size: 14px;
+    margin: 0 30px 30px 30px;
+    color: #A5A29C;
+}
+
+.adress {
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 40px;
+    font-size: 14px;
+    color: #778171;
+}
+
+.adress .text-center {
+    font-size: 15px;
+}
+
+.callAdress .buttonCallUs {
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+}
+
+.callUs {
+    background: transparent;
+    border: 1px solid grey;
+    font-size: 12px;
+    color: grey;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    min-width: 20%;
+}
+
+
+/* Five */
+
+.five {
+    background-image: url(../img/hours.jpg);
+    background-size: cover;
+}
+
+.five .fiveHeader {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.five .sitIsBad {
+    font-size: 36px;
+    color: #0FA74B;
+}
+
+.five .eightProcents {
+    font-size: 15px;
+    color: white;
+}
+
+.five .thistProblem {
+    font-size: 13px;
+    color: white;
+}
+
+.hours {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.hours .elipse {
+    margin-left: 30px;
+}
+
+.five .head15hours {
+    font-size: 26px;
+    color: #0FA74B;
+}
+
+.five .whenYouSit {
+    font-size: 18px;
+    color: white;
+}
+
+.five .lastText {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+
+/* Footer */
+
+footer {
+    height: 50px;
+    background-color: gray;
+}
+
+.footer p {
+    color: white;
+    font-size: 11px;
+    padding-top: 1.5%;
+    padding-left: 15%;
+}
